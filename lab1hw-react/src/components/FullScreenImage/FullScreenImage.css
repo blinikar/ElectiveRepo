@@ -1,0 +1,35 @@
+.FullScreenImage {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+
+    max-width: 100%;
+
+    position: absolute;
+    z-index: -1;
+
+    object-fit: cover;
+}
+
+.image-content {
+    max-width: 1600px;
+    padding: 32px 32px 0 32px;
+}
+
+.image-label {
+    margin: 0;
+    font-size: 120px;
+    color: white;
+}
+
+.image-text {
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-top: 24px;
+    color: white;
+}

@@ -1,0 +1,81 @@
+.ProjectCard {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+    box-sizing: border-box;
+
+    height: 512px;
+    border-radius: 16px;
+
+    background-color: #333333;
+    color: white;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+
+    overflow: hidden;
+}
+.ProjectCard:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
+}
+.ProjectCard:hover .card-background {
+    scale: 1.15;
+}
+
+.ProjectCard h3 {
+    margin-bottom: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+    position: absolute;
+
+    height: 512px;
+    width: calc(27%);
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+
+    box-sizing: border-box;
+
+    transition: all .3s ease;
+
+    border-radius: 14px;
+
+    background: linear-gradient(0, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.content-container:hover {
+    padding-bottom: 64px;
+}
+
+.card-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+
+    transition: all .3s ease;
+
+    border-radius: 16px;
+}
+
+.card-background-gradient {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+
+    transition: all .3s ease;
+
+    background: green;
+
+    border-radius: 16px;
+}
