@@ -1,13 +1,13 @@
 
 import "./FullScreenImage.css";
-import React from "react";
+import React, {ReactElement} from "react";
 import {bindReporter} from "web-vitals/dist/modules/lib/bindReporter";
 
 interface FullScreenImageProps {
     type: "video" | "image";
     url: string;
     label?: string;
-    text?: string;
+    text?: string | ReactElement;
 }
 
 export const FullScreenImage:React.FunctionComponent<FullScreenImageProps> = (props) => {

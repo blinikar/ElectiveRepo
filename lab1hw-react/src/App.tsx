@@ -5,7 +5,7 @@ import { Header } from "./components/Header";
 import { NoPage } from "./components/NoPage";
 import { Portfolio } from "./components/Portfolio";
 import { Contacts } from "./components/Contacts";
-import { RandomNumberFact } from "./components/RandomNumberFact";
+import { Weather } from "./components/Weather";
 
 const App:React.FunctionComponent = () => {
   return (
@@ -14,7 +14,7 @@ const App:React.FunctionComponent = () => {
               <Route path="/" element={<Header />}>
                   <Route index element={<Portfolio />} />
                   <Route path="contacts" element={<Contacts />} />
-                  <Route path="fact" element={<RandomNumberFact />} />
+                  <Route path="weather" element={<Weather />} />
                   <Route path="*" element={<NoPage />} />
               </Route>
           </Routes>

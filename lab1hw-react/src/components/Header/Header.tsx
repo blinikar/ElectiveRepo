@@ -11,7 +11,7 @@ export const Header:React.FunctionComponent = () => {
                 <nav className="menu">
                     <Link className="menu-item" to="/">Portfolio</Link>
                     <Link className="menu-item" to="/contacts">Contacts</Link>
-                    <Link className="menu-item" to="/fact">Math fact</Link>
+                    <Link className="menu-item" to="/weather">Weather</Link>
                 </nav>
             </div>
         </header>
