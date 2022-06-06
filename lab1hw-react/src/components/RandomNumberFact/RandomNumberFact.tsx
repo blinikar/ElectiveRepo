@@ -6,7 +6,7 @@ const useRandomNumberFact = ():[string, CallableFunction] => {
     const [numberFact, setNumberFact] = useState<string>("Loading...");
 
     const getNumberFact = () => {
-        fetch("//numbersapi.com/random/math")
+        fetch("http://numbersapi.com/random/math")
             .then((res) => res.text())
             .then((res) => {
                 setNumberFact(res);
