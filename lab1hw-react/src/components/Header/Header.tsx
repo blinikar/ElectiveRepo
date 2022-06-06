@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import {Link, Outlet} from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 // not looks like header the component name should be "Layout"
 export const Header:React.FunctionComponent = () => {
@@ -11,6 +11,7 @@ export const Header:React.FunctionComponent = () => {
                 <nav className="menu">
                     <Link className="menu-item" to="/">Portfolio</Link>
                     <Link className="menu-item" to="/contacts">Contacts</Link>
+                    <Link className="menu-item" to="/fact">Math fact</Link>
                 </nav>
             </div>
         </header>
