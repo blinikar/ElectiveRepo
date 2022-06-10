@@ -74,10 +74,6 @@ export const Weather:React.FunctionComponent = () => {
         <FullScreenImage type={"image"}
                          url={"https://upload.wikimedia.org/wikipedia/commons/e/e0/Multispectral_Triangulum_Galaxy_%283_Channels%29.jpg"}
                          label={label}
-                         text={ <>
-                             { text }
-                             <br/>
-                             Scroll to change location
-                         </> } />;
+                         text={text} />;
     </div>
 }
