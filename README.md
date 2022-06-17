@@ -16,3 +16,11 @@ used in weather page.
 
 Deployed: https://lively-pavlova-ba07fd.netlify.app/weather
 
+## Third homework
+I used GitHub Actions to build and deploy my site to https://blinikar.github.io
+
+The third homework based on the same site as the first and second ones, due to this reason the name of the folder didn't change.
+Types and checking already was in the previous assignment. Check src/components/Weather/Weather.tsx
+
+Deployed: https://blinikar.github.io/
+
