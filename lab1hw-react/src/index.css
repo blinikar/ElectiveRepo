@@ -1,6 +1,6 @@
 @font-face {
   font-family: CoFoKak;
-  src: url("http://localhost/CoFoKakBlack.otf") format("opentype");
+  src: url("/CoFoKakBlack.otf") format("opentype");
 }
 
 body {
