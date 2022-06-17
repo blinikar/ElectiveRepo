@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45daa2f0.css",
+    "main.js": "/static/js/main.75705dd5.js",
+    "static/js/787.f3078241.chunk.js": "/static/js/787.f3078241.chunk.js",
+    "static/media/CoFoKakBlack.otf": "/static/media/CoFoKakBlack.d09e4238c66a7967599f.otf",
+    "index.html": "/index.html",
+    "main.45daa2f0.css.map": "/static/css/main.45daa2f0.css.map",
+    "main.75705dd5.js.map": "/static/js/main.75705dd5.js.map",
+    "787.f3078241.chunk.js.map": "/static/js/787.f3078241.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45daa2f0.css",
+    "static/js/main.75705dd5.js"
+  ]
+}
