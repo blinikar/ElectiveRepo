@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import * as React from "react";
 import { Header } from "./components/Header";
 import { NoPage } from "./components/NoPage";
@@ -9,7 +9,7 @@ import { Weather } from "./components/Weather";
 
 const App:React.FunctionComponent = () => {
   return (
-      <HashRouter>
+      <BrowserRouter>
           <Routes>
               <Route path="/" element={<Header />}>
                   <Route index element={<Portfolio />} />
@@ -18,7 +18,7 @@ const App:React.FunctionComponent = () => {
                   <Route path="*" element={<NoPage />} />
               </Route>
           </Routes>
-      </HashRouter>
+      </BrowserRouter>
   );
 }
 
