@@ -1,7 +1,6 @@
 
 import "./FullScreenImage.css";
 import React, {ReactElement} from "react";
-import {bindReporter} from "web-vitals/dist/modules/lib/bindReporter";
 
 interface FullScreenImageProps {
     type: "video" | "image";
