@@ -1,7 +1,7 @@
-@font-face {
-  font-family: CoFoKak;
-  src: url("/CoFoKakBlack.otf") format("opentype");
-}
+/*@font-face {*/
+/*  font-family: CoFoKak;*/
+/*  src: url("fonts/CoFoKakBlack.otf") format("opentype");*/
+/*}*/
 
 body {
   margin: 0;
@@ -14,19 +14,17 @@ body {
   background-color: black;
 }
 
-h1 {
-  font-family: CoFoKak, sans-serif;
-}
-h2 {
-  font-family: CoFoKak, sans-serif;
-}
-h3 {
-  font-family: CoFoKak, sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-}
-
-
+/*h1 {*/
+/*  font-family: CoFoKak, sans-serif;*/
+/*}*/
+/*h2 {*/
+/*  font-family: CoFoKak, sans-serif;*/
+/*}*/
+/*h3 {*/
+/*  font-family: CoFoKak, sans-serif;*/
+/*  font-weight: 700;*/
+/*  font-size: 24px;*/
+/*}*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
