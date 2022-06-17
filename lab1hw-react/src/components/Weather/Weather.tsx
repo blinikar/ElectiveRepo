@@ -35,7 +35,7 @@ const useWeather = (initialLocation:string):[WeatherData|WeatherError|WeatherLoa
 
     useEffect(() => {
         getWeather(initialLocation);
-    }, []);
+    }, [initialLocation]);
 
     return [weather, getWeather];
 }
