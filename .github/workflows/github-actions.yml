@@ -24,5 +24,5 @@ jobs:
         with:
           branch: pages # The branch the action should deploy to.
           folder: lab1hw-react/build # The folder the action should deploy.
-          repository: blinikar/blinikar.github.io
+          repository-name: blinikar/blinikar.github.io
           token: ${{ secrets.TOKEN }}
