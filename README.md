@@ -27,7 +27,7 @@ Deployed: https://blinikar.github.io/
 ## Fourth homework
 This is an overkill to rebuild my website using Svelte, so I created entirely new.
 
-You can find a solution in lab4hw-svelte folder
+You can find a solution in lab4hw-svelte/application folder
 
 You need to build it using npm
 Not deployed
