@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   export let texts = ["Hello world"];
 
-  let text = texts[0];
+  let text: string = texts[0];
   const changeText = () => {
     text = texts[Math.floor(Math.random() * texts.length)];
   }
@@ -11,7 +11,7 @@
   }
 
   let c = 0;
-  let content;
+  let content: string;
   let state = "writing";
   setInterval(() => {
     if (state === "writing") {

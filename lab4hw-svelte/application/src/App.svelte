@@ -1,12 +1,15 @@
-<script>
+<script lang="ts" >
 import LandingContent from "./lib/LandingContent.svelte";
-import AutoType from "./lib/AutoType.svelte";
 
-let slogans;
+interface Data {
+    slogans: string[];
+}
+
+let slogans: string[];
 const fetchSlogan = () => {
   fetch("/slogans.json")
     .then((res) => res.text())
-    .then((res) => JSON.parse(res))
+    .then((res) => JSON.parse(res) as Data)
     .then((res) => {
       slogans = res.slogans;
     })

@@ -1,13 +1,11 @@
-<script>
+<script lang="ts">
     import AutoType from "./AutoType.svelte";
 
-    export let label
-    export let text
-    export let imgSrc
-    export let type
-    export let texts
-    let button_text
-    let button_href
+    export let label: string;
+    export let text: string;
+    export let imgSrc: string;
+    export let type: string;
+    export let texts: string[];
 </script>
 
 <div class="landingContent">
