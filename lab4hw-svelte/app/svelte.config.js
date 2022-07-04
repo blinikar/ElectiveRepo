@@ -15,7 +15,9 @@ const config = {
 
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
-		}
+		},
+
+		appDir: 'app_'
 	}
 };
 
