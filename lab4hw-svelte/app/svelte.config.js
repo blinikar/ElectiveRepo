@@ -8,7 +8,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter({fallback: 'index.html'}),
+		adapter: adapter({
+			pages: "docs",
+			assets: "docs"
+		}),
 
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
