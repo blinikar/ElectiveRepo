@@ -23,6 +23,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: pages # The branch the action should deploy to.
-          folder: lab4hw-svelte/app/build # The folder the action should deploy.
+          folder: lab4hw-svelte/app/docs # The folder the action should deploy.
           repository-name: blinikar/blinikar.github.io
           token: ${{ secrets.TOKEN }}
